@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VirtuProse Solutions builds intelligent growth engines powered by AI, premium design, and 10+ years of digital expertise."
+    />
+    <meta property="og:title" content="VirtuProse Solutions" />
+    <meta
+      property="og:description"
+      content="AI-inspired growth marketing, UI/UX, web apps, and automation built to scale brands 24/7."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/vps-icon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>VirtuProse Solutions | Intelligent Growth Engines</title>
+  </head>
+  <body>
+    <div class="global-noise"></div>
+    <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <div class="page-wrapper">
+      <header class="hero" id="home">
+        <nav class="nav">
+          <div class="logo">
+            <span>VPS</span>
+            <small>VirtuProse Solutions</small>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="btn ghost">Start Your Project</button>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">10+ years of AI-fueled growth</p>
+            <h1>
+              We don’t just build websites.<br />
+              <span>We build intelligent growth engines.</span>
+            </h1>
+            <p class="subline">
+              VirtuProse combines AI, design, and marketing to grow your
+              business 24/7. Every interaction is optimized, automated, and
+              alive.
+            </p>
+            <div class="cta-group">
+              <a class="btn primary" href="#contact">Start Your Project</a>
+              <a class="btn secondary" href="#work">See Our Work</a>
+            </div>
+            <div class="hero-metrics">
+              <div>
+                <span class="metric" data-target="10">0</span>
+                <p>Years building AI-led experiences</p>
+              </div>
+              <div>
+                <span class="metric" data-target="240">0</span>
+                <p>Launches that scaled globally</p>
+              </div>
+              <div>
+                <span class="metric" data-target="96">0</span>
+                <p>Net promoter score across partners</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="floating-sphere">
+              <div class="pulse"></div>
+              <div class="sphere-core">
+                <div class="glow"></div>
+                <svg viewBox="0 0 200 200">
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#7a5cff" />
+                      <stop offset="100%" stop-color="#13e8ff" />
+                    </linearGradient>
+                  </defs>
+                  <path
+                    d="M91.5,-25.2C99.2,1.6,73.7,33.6,45.4,51.1C17.2,68.5,-13.8,71.3,-34.7,56.4C-55.7,41.4,-66.7,8.7,-59.2,-18.6C-51.6,-45.8,-25.8,-67.7,-0.1,-67.7C25.6,-67.7,51.1,-45.9,91.5,-25.2Z"
+                    fill="url(#grad)"
+                    fill-opacity="0.35"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="hero-grid">
+              <div class="grid-line"></div>
+              <div class="grid-line"></div>
+              <div class="grid-line"></div>
+              <div class="grid-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">Scroll to explore</div>
+      </header>
+
+      <section class="services" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">What we craft</p>
+          <h2>Interactive services engineered for unstoppable growth</h2>
+        </div>
+        <div class="service-cards">
+          <article class="service-card">
+            <div class="service-icon">01</div>
+            <h3>Advanced Growth Marketing</h3>
+            <p>
+              Performance systems that blend predictive AI with human strategy,
+              relentlessly optimized for revenue.
+            </p>
+            <button class="ghost-link">Explore playbooks →</button>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">02</div>
+            <h3>Web Design & UI/UX</h3>
+            <p>
+              Conversion-first experiences that behave like premium software,
+              not brochure sites.
+            </p>
+            <button class="ghost-link">See experience layer →</button>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">03</div>
+            <h3>Web Applications</h3>
+            <p>
+              Scalable apps built on modern stacks, designed to integrate AI,
+              automation, and future features.
+            </p>
+            <button class="ghost-link">Review stack →</button>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">04</div>
+            <h3>AI Agents & Chatbots</h3>
+            <p>
+              Purpose-built conversational systems that convert, support, and
+              learn from every interaction.
+            </p>
+            <button class="ghost-link">Meet Orvia →</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="results" id="work">
+        <div class="result-grid">
+          <div class="result-card">
+            <h4>AI optimized funnels</h4>
+            <p>Average lift in conversions after 60 days</p>
+            <span class="stat glow" data-target="38">0%</span>
+          </div>
+          <div class="result-card">
+            <h4>LTV acceleration</h4>
+            <p>Retention increase from personalized journeys</p>
+            <span class="stat" data-target="52">0%</span>
+          </div>
+          <div class="result-card">
+            <h4>Automation hours saved</h4>
+            <p>AI agents resolving support flows monthly</p>
+            <span class="stat" data-target="1400">0</span>
+          </div>
+          <div class="result-card highlight">
+            <h4>Full-funnel governance</h4>
+            <p>
+              We blend analytics, GTM, and creative into one adaptive control
+              room.
+            </p>
+            <button class="btn primary small">Request a teardown</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="logos">
+        <div class="marquee">
+          <div class="track">
+            <span>NeuroForge</span>
+            <span>Helix Labs</span>
+            <span>Quantum Bloom</span>
+            <span>PulseTech</span>
+            <span>OrionWave</span>
+            <span>NovaStack</span>
+            <span>Synergia AI</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">The VPS story</p>
+          <h2>Human creativity meets machine precision</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Founder</h3>
+            <p>
+              Led by a digital strategist with 10+ years deploying growth
+              systems and flagship websites for global brands.
+            </p>
+            <p>
+              We work as embedded partners—mapping data, orchestrating
+              automation, and designing experiences that sell.
+            </p>
+          </div>
+          <div class="about-card hologram">
+            <h3>Mission</h3>
+            <p>"Merging intelligence and design for unstoppable growth."</p>
+            <div class="holo-grid">
+              <span>Neural research</span>
+              <span>Design language</span>
+              <span>Automation ops</span>
+              <span>Product velocity</span>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <h3>Milestones</h3>
+            <ul class="timeline">
+              <li>
+                <span>2014</span>
+                <p>First AI-assisted commerce launch</p>
+              </li>
+              <li>
+                <span>2018</span>
+                <p>Marketing automation for 6 global brands</p>
+              </li>
+              <li>
+                <span>2021</span>
+                <p>Orvia conversational framework released</p>
+              </li>
+              <li>
+                <span>2024</span>
+                <p>VirtuProse Solutions global collective formed</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="deep-services">
+        <div class="service-detail">
+          <div>
+            <p class="eyebrow">Growth marketing</p>
+            <h3>Performance command center</h3>
+            <p>
+              Predictive models + creative intelligence. We orchestrate full
+              funnel experiments, revenue dashboards, and realtime GTM sprints.
+            </p>
+          </div>
+          <button class="btn secondary">Book a demo</button>
+        </div>
+        <div class="service-detail">
+          <div>
+            <p class="eyebrow">Web design & UI/UX</p>
+            <h3>Interfaces engineered to convert</h3>
+            <p>
+              We pair cinematic visuals with UX science. Every pixel responds to
+              behavior signals across devices.
+            </p>
+          </div>
+          <button class="btn secondary">Book a demo</button>
+        </div>
+        <div class="service-detail">
+          <div>
+            <p class="eyebrow">Web applications</p>
+            <h3>Modular, secure, future-ready</h3>
+            <p>
+              From headless commerce to internal platforms—we architect with
+              TypeScript, GraphQL, and cloud-native stacks.
+            </p>
+          </div>
+          <button class="btn secondary">Book a demo</button>
+        </div>
+        <div class="service-detail">
+          <div>
+            <p class="eyebrow">AI agents & chatbots</p>
+            <h3>Automation with personality</h3>
+            <p>
+              Intelligent assistants trained on your knowledge base, powering
+              support, sales, and customer success around the clock.
+            </p>
+          </div>
+          <button class="btn secondary">Book a demo</button>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="section-heading">
+          <p class="eyebrow">Signals from partners</p>
+          <h2>“Every launch feels like the future shipped early.”</h2>
+        </div>
+        <div class="testimonial-carousel">
+          <button class="carousel-control prev">←</button>
+          <div class="carousel-track">
+            <article class="testimonial">
+              <p>
+                “VPS rebuilt our SaaS funnel and layered AI chat to demo the
+                product live. Pipeline doubled in three months.”
+              </p>
+              <h4>Adrian Cole</h4>
+              <span>CEO, Helix Labs</span>
+            </article>
+            <article class="testimonial">
+              <p>
+                “The visual system and orchestrated GTM stack made our launch
+                feel like a cinematic operating system.”
+              </p>
+              <h4>Maya Jensen</h4>
+              <span>VP Product, PulseTech</span>
+            </article>
+            <article class="testimonial">
+              <p>
+                “Their AI agents now qualify leads, route support, and capture
+                intelligence our team never had time to gather.”
+              </p>
+              <h4>Jordan Ruiz</h4>
+              <span>Growth Lead, NovaStack</span>
+            </article>
+          </div>
+          <button class="carousel-control next">→</button>
+        </div>
+      </section>
+
+      <section class="cta-banner">
+        <div class="cta-content">
+          <h3>Ready to scale smarter with AI?</h3>
+          <p>Let’s align strategy, automation, and experiences that convert.</p>
+        </div>
+        <a class="btn primary" href="#contact">Let’s Talk</a>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something extraordinary</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form" action="https://formspree.io/f/mbjnljny" method="POST">
+            <label>
+              Name
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                required
+                placeholder="you@company.com"
+              />
+            </label>
+            <label>
+              Project Type
+              <select name="project">
+                <option>Growth Marketing</option>
+                <option>Web Design / UI</option>
+                <option>Web Application</option>
+                <option>AI Agents</option>
+              </select>
+            </label>
+            <label>
+              Tell us more
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Timelines, goals, required outcomes..."
+              ></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send to contact@virtuprose.com</button>
+          </form>
+          <div class="contact-side">
+            <div class="chat-widget">
+              <div class="chat-header">
+                <span>Orvia · AI Assistant</span>
+                <span class="status">Online</span>
+              </div>
+              <div class="chat-body">
+                <p class="bot">Need a growth teardown or AI agent demo?</p>
+                <p class="user">Yes—let’s audit our funnel.</p>
+                <p class="bot">
+                  Upload KPIs & CRM data, I’ll prep a roadmap in 12 hours.
+                </p>
+              </div>
+            </div>
+            <div class="globe-card">
+              <div class="globe"></div>
+              <p>Global studio · Remote first · Available across timezones</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <strong>VirtuProse Solutions</strong>
+          <p>Intelligent growth engines for ambitious brands.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:contact@virtuprose.com">contact@virtuprose.com</a>
+          <a href="#">Privacy</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.29/dist/lenis.min.js"></script>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>

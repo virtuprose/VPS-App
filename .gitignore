@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Next.js / build
+.next/
+out/
+.next/cache/
+.vscode/
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Python server
+__pycache__/
+
+# VS Code
+.vscode/
+
+# Misc
+*.swp
+coverage/
+
+# public assets or large files you don't want in git
+public/assets/
+
+defaults
